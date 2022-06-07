@@ -40,7 +40,6 @@ paths:
     $ref: paths/path-item-with-examples.yaml
   /test:
     $ref: paths/test.yaml
-
 components:
   securitySchemes:
     main_auth:
