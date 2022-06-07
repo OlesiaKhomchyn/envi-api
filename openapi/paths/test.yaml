@@ -45,10 +45,3 @@ post:
           example: Hello world!
     description: Test payload
     required: true
-  x-codeSamples:
-    - lang: "C#"
-      source:
-        $ref: "../code_samples/csharp/test/post.cs"
-    - lang: PHP
-      source:
-        $ref: ../code_samples/PHP/test/post.php
