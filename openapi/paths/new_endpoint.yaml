@@ -43,5 +43,5 @@ post:
         schema:
           type: string
           example: Hello world!
-    description: Test2 payload
+    description: new_endpoint payload
     required: true
