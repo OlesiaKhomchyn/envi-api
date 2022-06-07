@@ -1,9 +1,9 @@
 post:
   tags:
-    - new_endpoint
+    - new-endpoint
   summary: test2 test2
   description: Receive the exact message you've sent 2
-  operationId: new_endpoint
+  operationId: new-endpoint
   security:
     - api_key: []
     - basic_auth: []
