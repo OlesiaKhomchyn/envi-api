@@ -24,7 +24,7 @@ tags:
     description: This is a test.
   - name: Test2
     description: This is a test2.
-  - name: new_endpoint
+  - name: new-endpoint
     description: This is a anew endpoint.
 servers:
   - url: 'https://{tenant}/api/v1'
@@ -46,8 +46,8 @@ paths:
     $ref: paths/test.yaml
   /test2:
     $ref: paths/test2.yaml
-  /test2:
-    $ref: paths/new_endpoint.yaml
+  /new-endpoint:
+    $ref: paths/new-endpoint.yaml
 components:
   securitySchemes:
     main_auth:
