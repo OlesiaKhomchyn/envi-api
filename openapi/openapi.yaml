@@ -40,7 +40,7 @@ paths:
     $ref: paths/path-item-with-examples.yaml
   /test:
     $ref: paths/test.yaml
-   /test2:
+  /test2:
     $ref: paths/test2.yaml
 components:
   securitySchemes:
