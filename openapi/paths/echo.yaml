@@ -1,9 +1,10 @@
 post:
   tags:
-    - Echo
-  summary: Echo test
-  description: Receive the exact message you've sent does not work not work not work
-  operationId: echo
+    - AP Batch
+  summary: Create new AP Batch
+  path: POST /odata/Batches
+  description: Creates new AP Batch within logged organization.
+  operationId: Ap Batch
   security:
     - api_key: []
     - basic_auth: []
