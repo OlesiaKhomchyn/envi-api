@@ -1,10 +1,9 @@
 post:
   tags:
-    - AP Batch
+    - Echo
   summary: Create new AP Batch
-  path: POST /odata/Batches
   description: Creates new AP Batch within logged organization.
-  operationId: Ap Batch
+  operationId: echo
   security:
     - api_key: []
     - basic_auth: []
