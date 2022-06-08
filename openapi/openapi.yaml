@@ -44,10 +44,6 @@ paths:
     $ref: paths/path-item-with-examples.yaml
   /test:
     $ref: paths/test.yaml
-  /test2:
-    $ref: paths/test2.yaml
-  /new-endpoint:
-    $ref: paths/new-endpoint.yaml
 components:
   securitySchemes:
     main_auth:
