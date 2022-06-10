@@ -1,0 +1,82 @@
+get:
+  tags:
+    - Addresses
+  summary: Get list of addresses
+  description: Returns paged list of the existing addresses within logged organization. You can filter the results by the strict match using $filter parameter – entity eq ‘string’. Or filter the results by the partial match using $filter=contains parameter – contains(entity, ‘string’).
+  operationId: Getlistofaddresses
+  parameters:
+    - name: api-version
+      in: header
+      description: The requested API version
+      schema:
+        type: string
+        default: 1.0
+    - name: $search
+      in: query
+      description: Picks the value in all possible fields.
+      required: false
+      schema:
+        type: string
+    - name: $search
+      in: query
+      description: Picks the value in all possible fields.
+      required: false
+      schema:
+        type: string
+    - name: $filter
+      in: query
+      description: Filters the results, based on a Boolean condition.
+      required: false
+      schema:
+        type: string
+    - name: $oederby
+      in: query
+      description: Sorts the results.
+      required: false
+      schema:
+        type: string
+    - name: $top
+      in: query
+      description: Returns only the first n results.
+      required: false
+      schema:
+        type: string
+    - name: $skip
+      in: query
+      description: Skips the first n results.
+      required: false
+      schema:
+        type: string
+    - name: $Authorization
+      in: header
+      description: Specify type of the token (bearer), and then insert the access_token, which was obtained during authentication.
+      required: false
+      schema:
+        type: string 
+        default: Bearer access_token
+        
+    
+  requestBody:
+    content:
+      application/json:
+        schema:
+          $ref: ../components/schemas/Get_list_of_addresses.yaml
+      application/xml:
+        schema:
+          $ref: ../components/schemas/User.yaml  
+    description: requestBody description
+    required: true
+   
+    
+  responses:
+    '200':
+      description: OK
+    '400':
+      description: Bad Request
+    '404':
+      description: User not found
+    '401':
+      description: Unauthorized
+ 
+
+  
