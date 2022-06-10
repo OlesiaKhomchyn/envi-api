@@ -20,12 +20,8 @@ tags:
     description: Operations about users.
   - name: Tag
     description: This is a tag description.
-  - name: Test
-    description: This is a test.
-  - name: paths/GET_odataAddresses
-    description: paths/GET_odataAddresses
-  - name: GET_odataAddresses.yaml
-    descriotion: bla-bal
+  - name: Addresses
+    descriotion: bla-bla
 servers:
   - url: 'https://{tenant}/api/v1'
     variables:
