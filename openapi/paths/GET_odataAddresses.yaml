@@ -17,12 +17,6 @@ get:
       required: false
       schema:
         type: string
-    - name: $search
-      in: query
-      description: Picks the value in all possible fields.
-      required: false
-      schema:
-        type: string
     - name: $filter
       in: query
       description: Filters the results, based on a Boolean condition.
@@ -53,8 +47,7 @@ get:
       required: false
       schema:
         type: string 
-        default: Bearer access_token
-        
+        default: Bearer access_token     
   requestBody:
     content:
       application/json:
@@ -64,9 +57,7 @@ get:
         schema:
           $ref: ../components/schemas/User.yaml  
     description: requestBody description
-    required: true
-   
-    
+    required: true 
   responses:
     '200':
       description: OK
@@ -76,6 +67,3 @@ get:
       description: User not found
     '401':
       description: Unauthorized
- 
-
-  
