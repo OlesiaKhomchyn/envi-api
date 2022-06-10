@@ -1,0 +1,26 @@
+type: object
+title: Addresses
+properties:
+  addressId:
+    description: Unique Identifier of the Address.
+    type: string
+    format: uuid
+    examples:
+      - "00000000-0000-0000-0000-000000000000"
+  organizationId:
+    description: Unique Identifier of the Organization.
+    type: string
+    format: uuid
+    examples:
+      - "00000000-0000-0000-0000-000000000000"
+  organizationNo:
+    description: Indentification Number of the Organization.
+    type: string
+    examples:
+      - "string"
+  addressTypeId:
+    description: Unique Identifier of the Address Type.
+    type: integer
+    format: 32
+    examples:
+      - "integer (int32)"
