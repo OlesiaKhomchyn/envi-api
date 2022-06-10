@@ -20,7 +20,7 @@ properties:
       - "string"
   addressTypeId:
     description: Unique Identifier of the Address Type.
-    type: integer
+    type: number
     format: 32
     examples:
       - "integer (int32)"
