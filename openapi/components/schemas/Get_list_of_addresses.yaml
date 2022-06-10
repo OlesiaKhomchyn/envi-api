@@ -18,9 +18,3 @@ properties:
     type: string
     examples:
       - "string"
-  addressTypeId:
-    description: Unique Identifier of the Address Type.
-    type: number
-    format: 32
-    examples:
-      - "integer (int32)"
