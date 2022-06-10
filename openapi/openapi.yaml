@@ -22,6 +22,8 @@ tags:
     description: This is a tag description.
   - name: Test
     description: This is a test.
+  - name: paths/GET_odataAddresses
+    description: paths/GET_odataAddresses
 servers:
   - url: 'https://{tenant}/api/v1'
     variables:
@@ -38,6 +40,8 @@ paths:
     $ref: paths/path-item.yaml
   /pathItemWithExamples:
     $ref: paths/path-item-with-examples.yaml
+   /GET_odataAddresses.yaml:
+    $ref: paths/GET_odataAddresses.yaml
 components:
   securitySchemes:
     main_auth:
