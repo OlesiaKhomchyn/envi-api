@@ -21,7 +21,7 @@ tags:
   - name: Tag
     description: This is a tag description.
   - name: Addresses
-    descriotion: bla-bla
+    description: bla-bla
 servers:
   - url: 'https://{tenant}/api/v1'
     variables:
