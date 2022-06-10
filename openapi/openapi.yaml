@@ -38,8 +38,10 @@ paths:
     $ref: paths/path-item.yaml
   /pathItemWithExamples:
     $ref: paths/path-item-with-examples.yaml
-  /test:
-    $ref: paths/test.yaml
+  /GET odataAddresses:
+    $ref: path/GET odataAddresses.yaml
+  /test2:
+    $ref: paths/test2.yaml
 components:
   securitySchemes:
     main_auth:
