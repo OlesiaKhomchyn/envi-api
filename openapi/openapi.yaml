@@ -38,7 +38,7 @@ paths:
     $ref: paths/path-item.yaml
   /pathItemWithExamples:
     $ref: paths/path-item-with-examples.yaml
-   /GET_odataAddresses.yaml:
+  /GET_odataAddresses.yaml:
     $ref: paths/GET_odataAddresses.yaml
 components:
   securitySchemes:
